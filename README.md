@@ -1,8 +1,5 @@
-<!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="C:\Users\Ryan\Documents\GitHub\mrflu85.github.io\Style" media=”screen” />
-        <div id="Welcome">
             <h1>This is my personal site! Welcome!</h1>
             <h6><small>Please note this site is a continual work in progress</small></h6>
         </div>
