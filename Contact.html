@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="Style.css"/>
         <div id="Title">
             <h1><strong>Contact Me</strong></h1>
+            <h4><a href="Index.html">Return Home</a></h4>
         </div>
     </head>
     <body>
@@ -15,7 +17,7 @@
         </div>
         <div id="Social">
             <p>I can also be found on the following Social Media and Networking platforms:</p>
-            <ol>
+            <ol class="a">
                 <li>LinkedIn: Link</li>
                 <li>Instagram: Link</li>
                 <li>Twitter: Link</li>
@@ -24,7 +26,19 @@
         </div>
         <div id="Submission">
             <p>You can also use the form below to send a message to my email directly.</p>
-            <!--Need to build a submission form here that sends the message directly to my email-->
+            <!--Current form is ugly and opens a browser page for email or a mail app. Need to adjust so that it sends off somewhere and is automatically sent to me.
+            Noted that this currnt form also returns a string rather than autofilling what we want...-->
+            <form action="mailto:ryanweb58@outlook.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+                Name:<br>
+                <input type="text" size="19" name="ContactName" value="Your Name"> <br><br>
+                Email: <br>
+                <input type="text" size="17" name="ContactEmail" value="Optional"> <br><br>
+                Phone: <br>
+                <input type="text" size="17" name="ContactPhone" value="Optional"> <br><br>
+                Message: <br>
+                <textarea name="ContactMessage" cols="30" rows="10"></textarea>
+                <input type="submit" value="Submit!">
+            </form>
         </div>
     </body>
 </html>
