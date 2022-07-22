@@ -1,0 +1,24 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#parts {
+  color: black;
+}
+
+ul.a {
+  list-style-type: square;
+  margin: 0 auto;
+}
+ul.b {
+  list-style-type: square;
+  margin: 0 auto
+}
+
+.Headshot {
+  float: right;
+}
+
+p {
+  clear: right;
+}
